@@ -16,7 +16,7 @@ target_tokens = set()
 
 # Adjust the number of lines so that
 # preprocessing doesn't take too long for you
-for line in lines[:22076]:
+for line in lines[:1000]:
   # Input and target sentences are separated by tabs
   input_doc, target_doc = line.split('\t')[:2]
   # Appending each input sentence to input_docs
